@@ -1,0 +1,15 @@
+[tool]
+[tool.poetry]
+name = "dynmo"
+version = "0.1.0"
+description = "Dynome"
+authors = ["Javier Aguirre"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "*"
+heroku3 = "*"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "*"
+coverage = "*"

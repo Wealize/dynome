@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  cli:
+    build: .
+    image: dynome
+    command: sh ./entrypoint.sh
+    environment:
+      HEROKU_KEY: 1
+    volumes:
+      - .:/code
